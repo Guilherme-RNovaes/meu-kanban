@@ -7,3 +7,28 @@
 body {
   background-color: #7C3AED;
 }
+
+.kanban-menu {
+  padding: 32px 0 0 35px;
+}
+
+.options-container {
+  width: 113px;
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.options-container a {
+  display: flex;
+  color: #CAB3FF;
+  text-decoration: none;
+  gap: 16px;
+}
+
+.options-container img {
+  width: 20px;
+  height: 20px;
+}
