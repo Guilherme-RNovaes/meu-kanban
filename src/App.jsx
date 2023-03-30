@@ -1,4 +1,6 @@
 import './App.css';
+import Category from './components/Category'
+
 import KanbanLogo from './img/logo.svg'
 import Boards from './img/boards.svg'
 import Equipes from './img/equipes.svg'
@@ -28,6 +30,9 @@ function App() {
             <p>Ajustes</p>
           </a>
         </div>
+      </div>
+      <div className="kanban-board-area">
+        <Category />
       </div>
     </div>
   );
