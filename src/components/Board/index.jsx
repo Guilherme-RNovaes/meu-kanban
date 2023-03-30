@@ -1,14 +1,17 @@
 import React from 'react'
 import './styles.css'
 
-function Category() {
+import KanbanTitle from '../../img/kanban.svg'
+
+function Board() {
   return (
     <div className='category-area'>
       <header className='kanban-title'>
         <h1>Meu Kanban</h1>
+        <img src={KanbanTitle} alt="" />
       </header>
     </div>
   )
 }
 
-export default Category
+export default Board

@@ -1,5 +1,5 @@
 import './App.css';
-import Category from './components/Category'
+import Board from './components/Board'
 
 import KanbanLogo from './img/logo.svg'
 import Boards from './img/boards.svg'
@@ -32,7 +32,7 @@ function App() {
         </div>
       </div>
       <div className="kanban-board-area">
-        <Category />
+        <Board />
       </div>
     </div>
   );
