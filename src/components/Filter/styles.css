@@ -1,4 +1,8 @@
 .filter-area {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    gap: 16px;
     padding: 0 12px;
     margin: 32px 0;
 }
@@ -17,4 +21,18 @@
     border: none;
     width: 135px;
     height: 48px;
+}
+
+.filter-area input {
+    width: 1000px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 0.7px solid #E3E3E3;
+    box-shadow: 0px 4px 16px rgba(22, 22, 22, 0.1);
+    border-radius: 8px;height: 48px;
+    border: 0.7px solid #E3E3E3;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 24px;
 }
