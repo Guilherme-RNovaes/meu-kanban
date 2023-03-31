@@ -3,7 +3,9 @@ import './styles.css'
 
 function Card() {
   return (
-    <div>Card</div>
+    <div className='card-container'>
+        
+    </div>
   )
 }
 

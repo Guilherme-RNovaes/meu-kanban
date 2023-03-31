@@ -21,10 +21,10 @@ function Board() {
           title='A fazer'
         />
         <CardArea 
-          title='A fazer'
+          title='Fazendo'
         />
         <CardArea 
-          title='A fazer'
+          title='Feito'
         />
       </div>
     </div>
