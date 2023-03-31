@@ -1,15 +1,20 @@
+.kanban-title {
+    display: flex;
+    flex-direction: row;
+    padding: 11px 0 11px 24px;
+    gap: 12px;
+}
+
 .board-area {
     background-color: #FBFAFF;
     height: 100%;
     margin-left: 27px;
     padding: 48px 32px 0;
     border-radius: 32px 0px 0px 0px;
-    color: #403937;
 }
 
-.kanban-title {
+.cards-area {
     display: flex;
-    flex-direction: row;
-    padding: 11px 0 11px 24px;
-    gap: 12px;
+    align-items: center;
+    justify-content: space-between;
 }

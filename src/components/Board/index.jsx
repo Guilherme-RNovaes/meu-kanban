@@ -4,6 +4,7 @@ import './styles.css'
 import Filter from '../Filter'
 
 import KanbanTitle from '../../img/kanban.svg'
+import CardArea from '../CardArea'
 
 function Board() {
   return (
@@ -14,6 +15,17 @@ function Board() {
       </header>
       <div className="filter-area">
         <Filter />
+      </div>
+      <div className="cards-area">
+        <CardArea 
+          title='A fazer'
+        />
+        <CardArea 
+          title='A fazer'
+        />
+        <CardArea 
+          title='A fazer'
+        />
       </div>
     </div>
   )
