@@ -9,9 +9,6 @@ function CardArea({ title }) {
       <header className="card-area-title">
         <p>{title}</p>
       </header>
-      <main className='cards'>
-        <Card />
-      </main>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import Filter from '../Filter'
 
 import KanbanTitle from '../../img/kanban.svg'
 import CardArea from '../CardArea'
+import Card from '../Card'
 
 function Board() {
   return (
@@ -18,15 +19,26 @@ function Board() {
           <Filter />
         </div>
         <div className="cards-area">
-          <CardArea 
-            title='A fazer'
-          />
-          <CardArea 
-            title='Fazendo'
-          />
-          <CardArea 
-            title='Feito'
-          />
+          <div className='cards'>
+            <CardArea 
+              title='A fazer'
+            />
+            <Card />
+            <Card />
+          </div>
+          <div className='cards'>
+            <CardArea 
+              title='Fazendo'
+            />
+            <Card />
+          </div>
+          <div className='cards'>
+            <CardArea 
+              title='Feito'
+            />
+            <Card />
+            <Card />
+          </div>
         </div>
       </div>
     </div>
