@@ -23,7 +23,12 @@ function Board() {
             <CardArea 
               title='A fazer'
             />
-            <Card />
+            <Card 
+              title='#boraCodar um Kanban 🧑‍💻'
+              text='Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.'
+              hashtag1='rocketseat'
+              hashtag2='desafio'
+            />
             <Card />
           </div>
           <div className='cards'>
