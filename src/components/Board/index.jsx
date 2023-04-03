@@ -29,20 +29,40 @@ function Board() {
               hashtag1='rocketseat'
               hashtag2='desafio'
             />
-            <Card />
+            <Card 
+              title=''
+              text=''
+              hashtag1=''
+              hashtag2=''
+            />
           </div>
           <div className='cards'>
             <CardArea 
               title='Fazendo'
             />
-            <Card />
+            <Card 
+              title=''
+              text=''
+              hashtag1=''
+              hashtag2=''
+            />
           </div>
           <div className='cards'>
             <CardArea 
               title='Feito'
             />
-            <Card />
-            <Card />
+            <Card 
+              title=''
+              text=''
+              hashtag1=''
+              hashtag2=''
+            />
+            <Card 
+              title=''
+              text=''
+              hashtag1=''
+              hashtag2=''
+            />
           </div>
         </div>
       </div>
