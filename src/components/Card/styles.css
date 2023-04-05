@@ -16,6 +16,17 @@
     gap: 10px;
 }
 
+.card-title {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #756966;
+}
+
 .hashtags {
     display: flex;
     align-items: flex-start;
