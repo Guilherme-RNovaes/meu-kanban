@@ -15,3 +15,18 @@
 .card-content {
     gap: 10px;
 }
+
+.hashtags {
+    display: flex;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 11px;    
+    gap: 8px;
+    color: #7C3AED;
+}
+
+.card-hash {
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: #E2D6FF;
+}
