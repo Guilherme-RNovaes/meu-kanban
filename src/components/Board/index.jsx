@@ -41,10 +41,10 @@ function Board() {
               title='Fazendo'
             />
             <Card 
-              title=''
-              text=''
-              hashtag1=''
-              hashtag2=''
+              title='Conferir o novo desafio 🚀'
+              text='Conferir o novo projeto do #boraCodar para fazê-lo da melhor maneira possível'
+              hashtag1='rocketseat'
+              hashtag2='desafio'
             />
           </div>
           <div className='cards'>
