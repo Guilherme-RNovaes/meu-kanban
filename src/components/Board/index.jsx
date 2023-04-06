@@ -30,10 +30,10 @@ function Board() {
               hashtag2='desafio'
             />
             <Card 
-              title=''
-              text=''
-              hashtag1=''
-              hashtag2=''
+              title='Manter a ofensiva 🔥'
+              text='Manter minha atividade na plataforma da Rocketseat para não perder a ofensiva'
+              hashtag1='rocketseat'
+              hashtag2='ofensiva'
             />
           </div>
           <div className='cards'>
