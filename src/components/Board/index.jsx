@@ -52,16 +52,16 @@ function Board() {
               title='Feito'
             />
             <Card 
-              title=''
-              text=''
-              hashtag1=''
-              hashtag2=''
+              title='#boraCodar uma página de login 🧑‍💻'
+              text='Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.'
+              hashtag1='rocketseat'
+              hashtag2='desafio'
             />
             <Card 
-              title=''
-              text=''
-              hashtag1=''
-              hashtag2=''
+              title='#boraCodar uma página de clima 🧑‍💻'
+              text='Novo desafio do #boraCodar da Rocketseat, onde é proposto construir um quadro de Kanban.'
+              hashtag1='rocketseat'
+              hashtag2='desafio'
             />
           </div>
         </div>
